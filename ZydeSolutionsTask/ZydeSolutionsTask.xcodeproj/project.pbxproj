@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01ED2E552525DE9500518749 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED2E542525DE9500518749 /* Toast.swift */; };
+		01F154152524F74B00BA73E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F154142524F74B00BA73E1 /* AppDelegate.swift */; };
+		01F154172524F74B00BA73E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F154162524F74B00BA73E1 /* SceneDelegate.swift */; };
+		01F154192524F74B00BA73E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F154182524F74B00BA73E1 /* ViewController.swift */; };
+		01F1541C2524F74B00BA73E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F1541A2524F74B00BA73E1 /* Main.storyboard */; };
+		01F1541F2524F74B00BA73E1 /* ZydeSolutionsTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01F1541D2524F74B00BA73E1 /* ZydeSolutionsTask.xcdatamodeld */; };
+		01F154212524F74D00BA73E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F154202524F74D00BA73E1 /* Assets.xcassets */; };
+		01F154242524F74D00BA73E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F154222524F74D00BA73E1 /* LaunchScreen.storyboard */; };
+		01F1542F2524F74D00BA73E1 /* ZydeSolutionsTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1542E2524F74D00BA73E1 /* ZydeSolutionsTaskTests.swift */; };
+		01F1543A2524F74D00BA73E1 /* ZydeSolutionsTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F154392524F74D00BA73E1 /* ZydeSolutionsTaskUITests.swift */; };
+		01F154482524FDF000BA73E1 /* EmployeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F154472524FDF000BA73E1 /* EmployeesViewController.swift */; };
+		01F1544A2524FE3300BA73E1 /* StopWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F154492524FE3300BA73E1 /* StopWatchViewController.swift */; };
+		01F1544C2525024E00BA73E1 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1544B2525024E00BA73E1 /* DatabaseHelper.swift */; };
+		01F1544E252504AB00BA73E1 /* Employees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1544D252504AB00BA73E1 /* Employees.swift */; };
+		01F154502525068900BA73E1 /* EmployeesDetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1544F2525068900BA73E1 /* EmployeesDetViewController.swift */; };
+		01F154532525218E00BA73E1 /* EmployeeTblVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F154512525218E00BA73E1 /* EmployeeTblVCell.swift */; };
+		01F154542525218E00BA73E1 /* EmployeeTblVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01F154522525218E00BA73E1 /* EmployeeTblVCell.xib */; };
+		01F154562525290700BA73E1 /* ConfigureImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F154552525290700BA73E1 /* ConfigureImg.swift */; };
+		01F154582525296300BA73E1 /* ImgPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F154572525296300BA73E1 /* ImgPlaceholder.swift */; };
+		01FBE86325265B30005F38A0 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FBE86225265B30005F38A0 /* StopWatch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01F1542B2524F74D00BA73E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01F154092524F74B00BA73E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01F154102524F74B00BA73E1;
+			remoteInfo = ZydeSolutionsTask;
+		};
+		01F154362524F74D00BA73E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01F154092524F74B00BA73E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01F154102524F74B00BA73E1;
+			remoteInfo = ZydeSolutionsTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01ED2E542525DE9500518749 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		01F154112524F74B00BA73E1 /* ZydeSolutionsTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZydeSolutionsTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F154142524F74B00BA73E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01F154162524F74B00BA73E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		01F154182524F74B00BA73E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01F1541B2524F74B00BA73E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01F1541E2524F74B00BA73E1 /* ZydeSolutionsTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZydeSolutionsTask.xcdatamodel; sourceTree = "<group>"; };
+		01F154202524F74D00BA73E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01F154232524F74D00BA73E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01F154252524F74D00BA73E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F1542A2524F74D00BA73E1 /* ZydeSolutionsTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZydeSolutionsTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F1542E2524F74D00BA73E1 /* ZydeSolutionsTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZydeSolutionsTaskTests.swift; sourceTree = "<group>"; };
+		01F154302524F74D00BA73E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F154352524F74D00BA73E1 /* ZydeSolutionsTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZydeSolutionsTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F154392524F74D00BA73E1 /* ZydeSolutionsTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZydeSolutionsTaskUITests.swift; sourceTree = "<group>"; };
+		01F1543B2524F74D00BA73E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F154472524FDF000BA73E1 /* EmployeesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesViewController.swift; sourceTree = "<group>"; };
+		01F154492524FE3300BA73E1 /* StopWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewController.swift; sourceTree = "<group>"; };
+		01F1544B2525024E00BA73E1 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		01F1544D252504AB00BA73E1 /* Employees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employees.swift; sourceTree = "<group>"; };
+		01F1544F2525068900BA73E1 /* EmployeesDetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesDetViewController.swift; sourceTree = "<group>"; };
+		01F154512525218E00BA73E1 /* EmployeeTblVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTblVCell.swift; sourceTree = "<group>"; };
+		01F154522525218E00BA73E1 /* EmployeeTblVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeTblVCell.xib; sourceTree = "<group>"; };
+		01F154552525290700BA73E1 /* ConfigureImg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureImg.swift; sourceTree = "<group>"; };
+		01F154572525296300BA73E1 /* ImgPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgPlaceholder.swift; sourceTree = "<group>"; };
+		01FBE86225265B30005F38A0 /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01F1540E2524F74B00BA73E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F154272524F74D00BA73E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F154322524F74D00BA73E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010D149325276D5A0005ADD5 /* Employees */ = {
+			isa = PBXGroup;
+			children = (
+				010D149625276DB20005ADD5 /* Cell */,
+				010D149525276D9C0005ADD5 /* Model */,
+				010D149425276D7E0005ADD5 /* VC */,
+			);
+			path = Employees;
+			sourceTree = "<group>";
+		};
+		010D149425276D7E0005ADD5 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				01F154472524FDF000BA73E1 /* EmployeesViewController.swift */,
+				01F1544F2525068900BA73E1 /* EmployeesDetViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		010D149525276D9C0005ADD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01F1544D252504AB00BA73E1 /* Employees.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		010D149625276DB20005ADD5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				01F154522525218E00BA73E1 /* EmployeeTblVCell.xib */,
+				01F154512525218E00BA73E1 /* EmployeeTblVCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		010D149725276DC40005ADD5 /* Stopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				010D149925276E1F0005ADD5 /* Model */,
+				010D149825276E0A0005ADD5 /* VC */,
+			);
+			path = Stopwatch;
+			sourceTree = "<group>";
+		};
+		010D149825276E0A0005ADD5 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				01F154492524FE3300BA73E1 /* StopWatchViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		010D149925276E1F0005ADD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01FBE86225265B30005F38A0 /* StopWatch.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		010D149A25276E340005ADD5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				01F1544B2525024E00BA73E1 /* DatabaseHelper.swift */,
+				01F154552525290700BA73E1 /* ConfigureImg.swift */,
+				01F154572525296300BA73E1 /* ImgPlaceholder.swift */,
+				01ED2E542525DE9500518749 /* Toast.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		01F154082524F74B00BA73E1 = {
+			isa = PBXGroup;
+			children = (
+				01F154132524F74B00BA73E1 /* ZydeSolutionsTask */,
+				01F1542D2524F74D00BA73E1 /* ZydeSolutionsTaskTests */,
+				01F154382524F74D00BA73E1 /* ZydeSolutionsTaskUITests */,
+				01F154122524F74B00BA73E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01F154122524F74B00BA73E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01F154112524F74B00BA73E1 /* ZydeSolutionsTask.app */,
+				01F1542A2524F74D00BA73E1 /* ZydeSolutionsTaskTests.xctest */,
+				01F154352524F74D00BA73E1 /* ZydeSolutionsTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01F154132524F74B00BA73E1 /* ZydeSolutionsTask */ = {
+			isa = PBXGroup;
+			children = (
+				010D149325276D5A0005ADD5 /* Employees */,
+				010D149725276DC40005ADD5 /* Stopwatch */,
+				010D149A25276E340005ADD5 /* Helpers */,
+				01F154142524F74B00BA73E1 /* AppDelegate.swift */,
+				01F154162524F74B00BA73E1 /* SceneDelegate.swift */,
+				01F154182524F74B00BA73E1 /* ViewController.swift */,
+				01F1541A2524F74B00BA73E1 /* Main.storyboard */,
+				01F154202524F74D00BA73E1 /* Assets.xcassets */,
+				01F154222524F74D00BA73E1 /* LaunchScreen.storyboard */,
+				01F154252524F74D00BA73E1 /* Info.plist */,
+				01F1541D2524F74B00BA73E1 /* ZydeSolutionsTask.xcdatamodeld */,
+			);
+			path = ZydeSolutionsTask;
+			sourceTree = "<group>";
+		};
+		01F1542D2524F74D00BA73E1 /* ZydeSolutionsTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				01F1542E2524F74D00BA73E1 /* ZydeSolutionsTaskTests.swift */,
+				01F154302524F74D00BA73E1 /* Info.plist */,
+			);
+			path = ZydeSolutionsTaskTests;
+			sourceTree = "<group>";
+		};
+		01F154382524F74D00BA73E1 /* ZydeSolutionsTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01F154392524F74D00BA73E1 /* ZydeSolutionsTaskUITests.swift */,
+				01F1543B2524F74D00BA73E1 /* Info.plist */,
+			);
+			path = ZydeSolutionsTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01F154102524F74B00BA73E1 /* ZydeSolutionsTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F1543E2524F74D00BA73E1 /* Build configuration list for PBXNativeTarget "ZydeSolutionsTask" */;
+			buildPhases = (
+				01F1540D2524F74B00BA73E1 /* Sources */,
+				01F1540E2524F74B00BA73E1 /* Frameworks */,
+				01F1540F2524F74B00BA73E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZydeSolutionsTask;
+			productName = ZydeSolutionsTask;
+			productReference = 01F154112524F74B00BA73E1 /* ZydeSolutionsTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01F154292524F74D00BA73E1 /* ZydeSolutionsTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F154412524F74D00BA73E1 /* Build configuration list for PBXNativeTarget "ZydeSolutionsTaskTests" */;
+			buildPhases = (
+				01F154262524F74D00BA73E1 /* Sources */,
+				01F154272524F74D00BA73E1 /* Frameworks */,
+				01F154282524F74D00BA73E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01F1542C2524F74D00BA73E1 /* PBXTargetDependency */,
+			);
+			name = ZydeSolutionsTaskTests;
+			productName = ZydeSolutionsTaskTests;
+			productReference = 01F1542A2524F74D00BA73E1 /* ZydeSolutionsTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01F154342524F74D00BA73E1 /* ZydeSolutionsTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F154442524F74D00BA73E1 /* Build configuration list for PBXNativeTarget "ZydeSolutionsTaskUITests" */;
+			buildPhases = (
+				01F154312524F74D00BA73E1 /* Sources */,
+				01F154322524F74D00BA73E1 /* Frameworks */,
+				01F154332524F74D00BA73E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01F154372524F74D00BA73E1 /* PBXTargetDependency */,
+			);
+			name = ZydeSolutionsTaskUITests;
+			productName = ZydeSolutionsTaskUITests;
+			productReference = 01F154352524F74D00BA73E1 /* ZydeSolutionsTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01F154092524F74B00BA73E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Shyam Kumar";
+				TargetAttributes = {
+					01F154102524F74B00BA73E1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					01F154292524F74D00BA73E1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 01F154102524F74B00BA73E1;
+					};
+					01F154342524F74D00BA73E1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 01F154102524F74B00BA73E1;
+					};
+				};
+			};
+			buildConfigurationList = 01F1540C2524F74B00BA73E1 /* Build configuration list for PBXProject "ZydeSolutionsTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01F154082524F74B00BA73E1;
+			productRefGroup = 01F154122524F74B00BA73E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01F154102524F74B00BA73E1 /* ZydeSolutionsTask */,
+				01F154292524F74D00BA73E1 /* ZydeSolutionsTaskTests */,
+				01F154342524F74D00BA73E1 /* ZydeSolutionsTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01F1540F2524F74B00BA73E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F154242524F74D00BA73E1 /* LaunchScreen.storyboard in Resources */,
+				01F154542525218E00BA73E1 /* EmployeeTblVCell.xib in Resources */,
+				01F154212524F74D00BA73E1 /* Assets.xcassets in Resources */,
+				01F1541C2524F74B00BA73E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F154282524F74D00BA73E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F154332524F74D00BA73E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01F1540D2524F74B00BA73E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01ED2E552525DE9500518749 /* Toast.swift in Sources */,
+				01FBE86325265B30005F38A0 /* StopWatch.swift in Sources */,
+				01F154192524F74B00BA73E1 /* ViewController.swift in Sources */,
+				01F1541F2524F74B00BA73E1 /* ZydeSolutionsTask.xcdatamodeld in Sources */,
+				01F154152524F74B00BA73E1 /* AppDelegate.swift in Sources */,
+				01F1544C2525024E00BA73E1 /* DatabaseHelper.swift in Sources */,
+				01F154482524FDF000BA73E1 /* EmployeesViewController.swift in Sources */,
+				01F154562525290700BA73E1 /* ConfigureImg.swift in Sources */,
+				01F1544E252504AB00BA73E1 /* Employees.swift in Sources */,
+				01F1544A2524FE3300BA73E1 /* StopWatchViewController.swift in Sources */,
+				01F154532525218E00BA73E1 /* EmployeeTblVCell.swift in Sources */,
+				01F154502525068900BA73E1 /* EmployeesDetViewController.swift in Sources */,
+				01F154172524F74B00BA73E1 /* SceneDelegate.swift in Sources */,
+				01F154582525296300BA73E1 /* ImgPlaceholder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F154262524F74D00BA73E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F1542F2524F74D00BA73E1 /* ZydeSolutionsTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F154312524F74D00BA73E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F1543A2524F74D00BA73E1 /* ZydeSolutionsTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01F1542C2524F74D00BA73E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01F154102524F74B00BA73E1 /* ZydeSolutionsTask */;
+			targetProxy = 01F1542B2524F74D00BA73E1 /* PBXContainerItemProxy */;
+		};
+		01F154372524F74D00BA73E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01F154102524F74B00BA73E1 /* ZydeSolutionsTask */;
+			targetProxy = 01F154362524F74D00BA73E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01F1541A2524F74B00BA73E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01F1541B2524F74B00BA73E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01F154222524F74D00BA73E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01F154232524F74D00BA73E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01F1543C2524F74D00BA73E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01F1543D2524F74D00BA73E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01F1543F2524F74D00BA73E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ6L9UFY32;
+				INFOPLIST_FILE = ZydeSolutionsTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shyam.ZydeSolutionsTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01F154402524F74D00BA73E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ6L9UFY32;
+				INFOPLIST_FILE = ZydeSolutionsTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shyam.ZydeSolutionsTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01F154422524F74D00BA73E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ6L9UFY32;
+				INFOPLIST_FILE = ZydeSolutionsTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shyam.ZydeSolutionsTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZydeSolutionsTask.app/ZydeSolutionsTask";
+			};
+			name = Debug;
+		};
+		01F154432524F74D00BA73E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ6L9UFY32;
+				INFOPLIST_FILE = ZydeSolutionsTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shyam.ZydeSolutionsTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZydeSolutionsTask.app/ZydeSolutionsTask";
+			};
+			name = Release;
+		};
+		01F154452524F74D00BA73E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ6L9UFY32;
+				INFOPLIST_FILE = ZydeSolutionsTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shyam.ZydeSolutionsTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZydeSolutionsTask;
+			};
+			name = Debug;
+		};
+		01F154462524F74D00BA73E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ6L9UFY32;
+				INFOPLIST_FILE = ZydeSolutionsTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shyam.ZydeSolutionsTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZydeSolutionsTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F1540C2524F74B00BA73E1 /* Build configuration list for PBXProject "ZydeSolutionsTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F1543C2524F74D00BA73E1 /* Debug */,
+				01F1543D2524F74D00BA73E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F1543E2524F74D00BA73E1 /* Build configuration list for PBXNativeTarget "ZydeSolutionsTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F1543F2524F74D00BA73E1 /* Debug */,
+				01F154402524F74D00BA73E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F154412524F74D00BA73E1 /* Build configuration list for PBXNativeTarget "ZydeSolutionsTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F154422524F74D00BA73E1 /* Debug */,
+				01F154432524F74D00BA73E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F154442524F74D00BA73E1 /* Build configuration list for PBXNativeTarget "ZydeSolutionsTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F154452524F74D00BA73E1 /* Debug */,
+				01F154462524F74D00BA73E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01F1541D2524F74B00BA73E1 /* ZydeSolutionsTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01F1541E2524F74B00BA73E1 /* ZydeSolutionsTask.xcdatamodel */,
+			);
+			currentVersion = 01F1541E2524F74B00BA73E1 /* ZydeSolutionsTask.xcdatamodel */;
+			path = ZydeSolutionsTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01F154092524F74B00BA73E1 /* Project object */;
+}
